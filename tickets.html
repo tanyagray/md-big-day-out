@@ -78,12 +78,6 @@
             <label class="formlabel">Enquiry:</label>
             <input class="commentbox" name="enquiry" value="" />
             
-            <?php
-            require_once('recaptcha-php-1.10/recaptchalib.php');
-            $publickey = "6LeBaQMAAAAAAGzJwe2-zZNPFM_BS33IXA8G8tDp"; // you got this from the signup page
-            echo recaptcha_get_html($publickey);
-            ?>
-            
             <input class="submitbutton" type="submit" value="" onclick="return ValidateAll()" />
             
         </form>

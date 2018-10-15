@@ -1,0 +1,985 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+
+body, html {
+width:100%;
+height:100%;
+background-color:#000000;
+background-image:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#container {
+margin:0 auto;
+position:relative;
+width:940px;
+background: transparent url(../images/bg.jpg) top center repeat-y;
+}
+
+img {
+border:0;
+}
+
+/* header stacking */
+
+div#header { /* contains ripped paper bg of header */
+position:absolute;
+top:0;
+left:0;
+width:940px;
+height:296px;
+background: transparent url(../images/headerbg.png) top center no-repeat;
+text-align:center;
+z-index:90;
+}
+
+div#content {
+top:200px;
+margin:0 auto;
+padding-top:280px;
+width:910px;
+z-index:30;
+}
+
+div#baseline {
+width:100%;
+height:56px;
+background: transparent url(../images/blackbaseline.png) top center no-repeat;
+}
+
+img.logo {
+height:197px;
+}
+
+/* SPLASH PAGE STYLES */
+
+a#getflashplayer:link,  a#getflashplayer:visited{
+color:#990000;
+text-decoration:none;
+}
+
+a#getflashplayer:hover,  a#getflashplayer:active{
+color:#990000;
+font-weight:bold;
+text-decoration:none;
+}
+
+a#getflashplayer img {
+border:0;
+}
+
+div#splashbg {
+background: #000000 url('../images/darkbg.jpg') top center repeat;
+position:absolute;
+width:100%;
+height:100%;
+}
+
+div#banner {
+width:100%;
+height:400px;
+margin-top:40px;
+background:transparent url('../images/splashbanner.png') bottom center repeat-x;
+}
+
+div#splashaligner {
+position:relative;
+margin: 0 auto;
+width:665px;
+}
+
+div#splashlogo {
+position:absolute;
+top:0;
+left:0;
+width:665px;
+height:342px;
+background:transparent url('../images/splashlogo.png') top center no-repeat;
+z-index:98;
+}
+
+div#flashtext {
+position:absolute;
+width:540px;
+height:144px;
+top:320px;
+left:60px;
+background:transparent url('../images/splashflashthing.png') top left no-repeat;
+text-align:center;
+}
+
+div#flashtext p {
+padding-top:90px;
+font-size:10px;
+line-height:12px;
+color:#000000;
+}
+
+/* HOME PAGE STYLES */
+
+div#textareatop{
+width:417px;
+height:118px;
+background: transparent url(../images/home_content_top.png) top left no-repeat;
+}
+
+div#textareacenter{
+width:417px;
+height:300px;
+background: transparent url(../images/home_content_center.png) top left repeat-y;
+}
+
+div#textareabottom{
+width:417px;
+height:73px;
+background: transparent url(../images/home_content_bottom.png) top left no-repeat;
+}
+
+h1 {
+padding:5px 0px 7px 50px;
+font-size:14px;
+color:#840505;
+}
+
+p {
+padding:0 50px 20px 50px;
+font-size:12px;
+line-height:18px;
+}
+
+img.padding50 { /* adds left padding of 50px to images */
+padding-left:50px;
+}
+
+div#ticketlink {
+position:absolute;
+top:240px;
+left:360px;
+width:400px;
+height:250px;
+}
+
+div#ticketlink a {
+float: left;
+padding: 250px 0 0 0;
+overflow: hidden;
+height: 0px !important; 
+height /**/:250px; /* for IE5/Win */
+width: 400px;
+background: url('../images/ticketslink.png') top left no-repeat;
+}
+
+div#ticketlink a:hover {
+background-position: 0 -250px;
+}
+
+div#forumnote {
+position:absolute;
+top:500px;
+left:570px;
+width:358px;
+height:291px;
+}
+
+div#forumnote a {
+float: left;
+padding: 291px 0 0 0;
+overflow: hidden;
+height: 0px !important; 
+height /**/:291px; /* for IE5/Win */
+width: 358px;
+background: url('../images/forumnote.png') top left no-repeat;
+}
+
+div#forumnote a:hover {
+background-position: 0 -291px;
+}
+	
+div#homepagead {
+position:absolute;
+left:620px;
+top:265px;
+width:280px;
+height:280px;
+background:transparent url(../images/adnote.png) top center no-repeat;
+
+}
+
+img.boxad {
+padding-left:25px;
+padding-top:25px;
+border:0;
+}
+
+div#phone {
+position:absolute;
+top:430px;
+left:420px;
+background: transparent url(../images/phone.png) top left no-repeat;
+width:177px;
+height:323px;
+}
+
+/* FORUM PAGE STYLES */
+
+div#forumintro {
+width:800px;
+height:104px;
+margin:0 auto;
+position:relative;
+background:transparent url('../images/forumheader.png') top left no-repeat;
+}
+
+div#login {
+margin:0 auto;
+width:770px;
+height:44px;
+background: transparent url('../images/forumlogin.png') top center no-repeat;
+}
+
+div#forumtable {
+margin:0 auto;
+padding-top:20px;
+width:770px;
+}
+
+div#forumcolnames {
+margin:0 auto;
+width:770px;
+height:30px;
+background: transparent url('../images/forumcolnames.jpg') top center no-repeat;
+}
+
+div.entryodd {
+margin:0 auto;
+width:770px;
+height:56px;
+background: transparent url('../images/forumodd.png') top center no-repeat;
+}
+
+div.entryeven {
+margin:0 auto;
+width:770px;
+height:56px;
+background: transparent url('../images/forumeven.png') top center no-repeat;
+}
+
+div#forumloginbox {
+width:450px;
+float:right;
+padding-top:7px;
+}
+
+div#forumloginbox label {
+font-size:10px;
+font-weight:bold;
+color:#FFFFFF;
+}
+
+div#forumloginbox input {
+width:120px;
+border:1px solid #660000;
+background-color:#FECAC5;
+}
+
+#forumloginbutton {
+font-size:10px;
+color:#FFFFFF;
+font-weight:bold;
+border:1px solid #FFFFFF;
+padding:2px;
+text-decoration:none;
+background-color:#660000;
+}
+
+#forumloginbutton:hover {
+background-color:#CC0000;
+}
+
+/* LINE-UP PAGE STYLES */
+div#lineupintro {
+width:800px;
+height:104px;
+margin:0 auto;
+position:relative;
+background:transparent url('../images/lineupheader.png') top left no-repeat;
+}
+
+img.leaderboard1 {
+float:right;
+padding-top:20px;
+padding-right:20px;
+border:0;
+}
+
+img.leaderboard2 {
+float:left;
+padding-top:5px;
+padding-left:5px;
+border:0;
+}
+
+img.bandpic {
+float:left;
+padding-top:5px;
+padding-left:5px;
+}
+
+div#introtext{
+position:absolute;
+width:374px;
+height:252px;
+background: transparent url('../images/lineuptext.png') top left no-repeat;
+}
+
+div#lineuppagead {
+position:absolute;
+left:374px;
+width:247px;
+height:250px;
+}
+
+div#artistlist {
+width:790px;
+margin:0 auto;
+}
+
+div.artistlink {
+float:left;
+width:250px;
+height:70px;
+background:#FFFFCC;
+margin:5px;
+background:transparent url('../images/artistlinkbg.jpg') top left no-repeat;
+}
+
+a.artistlink:link, a.artistlink:visited, a.artistlink:active {
+font-size:12px;
+font-weight:bold;
+float:left;
+color:#990000;
+text-decoration:none;
+display:block;
+width:250px;
+height:70px;
+background:none;
+margin:0;
+padding:0;
+}
+
+a.artistlink:hover {
+color:#FFFFFF;
+background-color:#990000;
+}
+
+div.clearfloat {
+clear:both;
+}
+
+img.artistthumb {
+float:left;
+margin:5px;
+}
+
+span.artistname{
+font-size:12px;
+font-weight:bold;
+float:left;
+padding-top:20px;
+padding-left:5px;
+display:block;
+width:100px;
+height:40px;
+}
+
+/* TICKETS PAGE STYLES */
+
+div#ticketsheader{
+margin: 0 auto;
+width:651px;
+}
+
+div#ticketsintro {
+background:transparent url('../images/ticketsintro.png') top left no-repeat;
+width:374px;
+height:262px;
+float:left;
+}
+
+div#ticketsintro p {
+width:300px;
+margin:120px 0 0 60px;
+padding:0;
+}
+
+div#ticketspagead {
+width:276px;
+height:280px;
+background:transparent url('../images/adnotered.png') top center no-repeat;
+float:left;
+}
+
+img.rockad {
+padding-left:16px;
+padding-top:20px;
+}
+
+div#formcontainer {
+margin:-30px auto 0px;
+width:610px;
+padding-top:50px;
+padding-bottom:50px;
+background: transparent url('../images/formbg.jpg');
+}
+
+div#formfield {
+width:292px;
+padding-left:50px;
+float:left;
+}
+
+.textbox {
+background: transparent url('../images/formfield.jpg') top left no-repeat;
+border:0;
+width:252px;
+height:26px;
+padding-top:5px;
+padding-left:3px;
+}
+
+.hidden {
+display:none;
+}
+
+a.ticketek:link, a.ticketek:visited {
+color:#660000;
+}
+
+a.ticketek:hover, a.ticketek:active {
+color:#CC6600;
+}
+
+.commentbox {
+background: transparent url('../images/commentbox.jpg') top left no-repeat;
+border:0;
+width:252px;
+height:117px;
+padding:5px 7px 0px 7px;
+}
+
+.submitbutton {
+display:block;
+background: transparent url('../images/submitbutton.png') top left no-repeat;
+border:0;
+width:175px;
+height:73px;
+}
+
+.submitbutton:hover {
+background: transparent url('../images/submitbuttonhover.png') top left no-repeat;
+}
+
+.formlabel {
+font-size:10px;
+color:#330000;
+padding-top:3px;
+padding-bottom:3px;
+line-height:12px;
+display:block;
+height:10px;
+}
+
+#ticketekinfo {
+float:left;
+width:200px;
+}
+
+p.ticketekinfo {
+font-size:10px;
+line-height:17px;
+margin:0;
+width:150px;
+padding-left:40px;
+}
+
+div.validate {
+display:inline;
+width:26px;
+height:40px;
+margin-top:7px;
+}
+
+/* GALLERY PAGE STLYES */
+
+img.polaroid {
+width:150px;
+height:150px;
+border:0;
+}
+
+div.polaroid {
+float:left;
+}
+
+div#gallerythumbs {
+margin: 0 auto;
+width:750px;
+}
+
+div#galleryintro {
+width:800px;
+height:104px;
+margin:0 auto;
+position:relative;
+background:transparent url('../images/galleryheader.png') top left no-repeat;
+}
+
+/* ARTIST PAGE STYLES */
+
+div#artistintro {
+width:800px;
+height:104px;
+margin:0 auto;
+position:relative;
+background:transparent url('../images/galleryheader.png') top left no-repeat;
+}
+
+div#artistalignment {
+width:795px;
+margin:0 auto;
+}
+
+div#leftcol {
+float:left;
+width:365px;
+}
+
+div#rightcol {
+float:left;
+width:320px;
+background:transparent url('../images/artistpagebg.jpg') top left repeat-y;
+overflow:visible;
+}
+
+div#artistsubnav {
+float:left;
+width:110px;
+height:200px;
+margin-left:-15px;
+padding-top:50px;
+}
+
+div#mediaplayer {
+width:365px;
+height:252px;
+background-image:url('../images/mediaplayer.gif');
+}
+
+ul#artistsublist {
+font-size:10px;
+list-style:none;
+}
+
+ul#artistsublist li{
+margin-top:2px;
+}
+
+ul#artistsublist li a:link, a:visited{
+display:block;
+padding:5px;
+background-color:#660000;
+color:#CCCCCC;
+font-weight:bold;
+text-decoration:none;
+}
+
+ul#artistsublist li a:hover, a:active{
+display:block;
+background-color:#CC0000;
+color:#FFFFFF;
+font-weight:bold;
+
+}
+
+div#mediathumbs {
+padding-left:26px;
+margin:0;
+}
+
+div#mediathumbs a{
+background:none;
+}
+
+div#mediathumbs img {
+float:left;
+border: 4px solid #FFFFFF;
+margin:3px;
+}
+
+div#adbanner {
+margin-left:30px;
+width:637px;
+height:65px;
+background-color:#660000;
+}
+
+div#artistinfo span.bold {
+font-weight:bold;
+}
+
+p.smalltext {
+font-size:11px;
+color:#990000;
+}
+
+div#artistinfo p {
+margin:0;
+padding:7px 20px;
+}
+/* GALLERY NAVIGATION STLYES */
+
+div#gallerynav {
+margin: -15px auto;
+width:750px;
+height:65px;
+text-align:center;
+z-index:91;
+}
+
+ul#nav2{
+	list-style: none;
+	margin:0 auto;
+	padding:0;
+	height: 45px;
+	display: inline;
+	overflow: hidden;
+	width: 629px;
+	}
+	
+#nav2 li {
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+#nav2 a {
+	float: left;
+	padding: 45px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:45px; /* for IE5/Win */
+	background-position: top left;
+	background-repeat:no-repeat;
+	}
+	
+#nav2 a:hover {
+	background-position: 0 -45px;
+	background-repeat:no-repeat;
+	}
+
+#nav2 a:active, #nav2 a.selected, #nav2 a.selected:hover {
+	background-position: 0 -90px;
+	background-repeat:no-repeat;
+	}
+	
+#tab2006 a  {
+	width: 82px;
+	background: url('../images/gallerynav/2006.gif') no-repeat;
+	margin-left:250px;
+	}
+
+#tab2007 a  {
+	width: 82px;
+	margin-left:3px;
+	background: url('../images/gallerynav/2007.gif') no-repeat;
+	}
+
+#tab2008 a  {
+	width: 82px;
+	background: url('../images/gallerynav/2008.gif') no-repeat;
+	margin-left:3px;
+	}
+
+#page1 a  {
+	width: 90px;
+	background: url('../images/gallerynav/page1.gif') no-repeat;
+	margin-right:-247px;
+	}
+
+#page2 a  {
+	width: 90px;
+	background: url('../images/gallerynav/page2.gif') no-repeat;
+	margin-left:155px;
+	}
+	
+#page3 a  {
+	width: 90px;
+	background: url('../images/gallerynav/page3.gif') no-repeat;
+	margin-left:155px;
+	}
+	
+/* GALLERY BOTTOM NAVIGATION STLYES */
+
+div#gallerynavbottom {
+margin: -15px auto;
+width:105px;
+height:60px;
+text-align:center;
+z-index:91;
+padding-top:30px;
+}
+
+ul#navbottom{
+	list-style: none;
+	margin:0 auto;
+	padding:0;
+	height: 28px;
+	display: inline;
+	overflow: hidden;
+	width: 105px;
+	}
+	
+#navbottom li {
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+#navbottom a {
+	float: left;
+	padding: 28px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:28px; /* for IE5/Win */
+	background-position: top left;
+	background-repeat:no-repeat;
+	margin-left:3px;
+	width:23px;
+	}
+	
+#navbottom a:hover {
+	background-position: 0 -28px;
+	background-repeat:no-repeat;
+	}
+
+#navbottom a:active, #navbottom a.selected, #navbottom a.selected:hover {
+	background-position: 0 -28px;
+	background-repeat:no-repeat;
+	}
+	
+#page1small a  {
+	background: url('../images/gallerynav/small1.gif') no-repeat;
+	}
+
+#page2small a  {
+	background: url('../images/gallerynav/small2.gif') no-repeat;
+	}
+
+#page3small a  {
+	background: url('../images/gallerynav/small3.gif') no-repeat;
+	}
+
+#page4small a  {
+	background: url('../images/gallerynav/small4.gif') no-repeat;
+	}
+	
+/* INDEX NAVIGATION STLYES */
+
+div#indexnavigation {
+position:absolute;
+top:300px;
+left:25px;
+width:630px;
+height:97px;
+text-align:center;
+z-index:91;
+}
+
+ul#citynav{
+	list-style: none;
+	margin:0 auto;
+	padding:0;
+	height: 97px;
+	display: inline;
+	overflow: hidden;
+	width: 629px;
+	z-index:95;
+	}
+	
+#citynav li {
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+#citynav a {
+	float: left;
+	padding: 97px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:97px; /* for IE5/Win */
+	background-position: top left;
+	}
+	
+#citynav a:hover {
+	background-position: 0 -97px;
+	}
+
+#citynav a:active, #citynav a.selected {
+	background-position: top left;
+	}
+	
+#perth a  {
+	width: 93px;
+	background: url('../images/splashnav/perth.png');
+	}
+
+#adelaide a  {
+	width: 113px;
+	background: url('../images/splashnav/adelaide.png');
+	}
+
+#melbourne a  {
+	width: 112px;
+	background: url('../images/splashnav/melbourne.png');
+	}
+
+#sydney a  {
+	width: 98px;
+	background: url('../images/splashnav/sydney.png');
+	}
+	
+#goldcoast a  {
+width: 97px;
+background: url('../images/splashnav/goldcoast.png');
+}
+	
+#auckland a  {
+	width: 117px;
+	background: url('../images/splashnav/auckland.png');
+	}
+
+/* NAVIGATION STLYES */
+
+div#navigation {
+position:absolute;
+top:197px;
+left:156px;
+width:629px;
+height:80px;
+text-align:center;
+z-index:91;
+}
+
+ul#nav{
+	list-style: none;
+	margin:0 auto;
+	padding:0;
+	height: 88px;
+	display: inline;
+	overflow: hidden;
+	width: 629px;
+	}
+	
+#nav li {
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+#nav a {
+	float: left;
+	padding: 88px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:88px; /* for IE5/Win */
+	background-position: top left;
+	}
+	
+#nav a:hover {
+	background-position: 0 -88px;
+	}
+
+#nav a:active, #nav a.selected {
+	background-position: top left;
+	}
+	
+#home a  {
+	width: 137px;
+	background: url('../images/nav/home.png');
+	}
+
+#lineup a  {
+	width: 133px;
+	background: url('../images/nav/lineup.png');
+	}
+
+#tickets a  {
+	width: 113px;
+	background: url('../images/nav/tickets.png');
+	}
+
+#gallery a  {
+	width: 119px;
+	background: url('../images/nav/gallery.png');
+	}
+	
+#forum a  {
+	width: 127px;
+	background: url('../images/nav/forum.png');
+	}
+	
+/* FOOTER STYLES */
+
+#textnavigation {
+width:900px;
+margin:0 auto;
+text-align:center;
+font-family:'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-transform:uppercase;
+
+}
+
+a.textnav:link, a.textnav:visited{
+color:#999999;
+text-decoration:none;
+padding:3px 20px 5px;
+font-weight:bold;
+background-color:transparent;
+display:inline;
+}
+
+a.textnav:hover, a.textnav:active{
+color:#FFFFFF;
+background-color:#003399;
+}
+
+ul#textnav {
+display:inline;
+}
+
+ul#textnav li{
+display:inline;
+width:100px;
+height:30px;
+}
+
+#textnavigation p{
+text-transform:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#999999;
+line-height:13px;
+font-size:10px;
+padding-top:20px;
+}
+
+div.indextextnav {
+padding-top:50px;
+}

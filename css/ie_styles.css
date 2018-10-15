@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* header stacking */
+
+div#header { /* contains ripped paper bg of header */
+background: transparent url(../images/headerbg.gif) top center no-repeat;
+}
+
+
+div#baseline {
+width:100%;
+height:56px;
+background: transparent url(../images/blackbaseline.png) top center no-repeat;
+}
+
+/* SPLASH PAGE STYLES */
+
+div#splashlogo {
+background:transparent url('../images/splashlogo.gif') top center no-repeat;
+}
+
+div#banner {
+background:transparent url('../images/splashbanner.gif') bottom center repeat-x;
+}
+
+/* HOME PAGE STYLES */
+
+div#textareatop{
+background: transparent url('../images/home_content_top.png') top left no-repeat;
+}
+
+div#textareacenter{
+background: transparent url('../images/home_content_center.png') top left repeat-y;
+}
+
+div#textareabottom{
+background: transparent url('../images/home_content_bottom.png') top left no-repeat;
+}
+
+div#ticketlink a {
+	background: url('../images/ticketslink.gif') top left no-repeat;
+	}
+	
+div#homepagead {
+background:transparent url(../images/adnote.png) top center no-repeat;
+
+}
+
+
+div#phone {
+background: transparent url(../images/phone.png) top left no-repeat;
+
+}
+
+
+/* MAIN NAVIGATION IMAGES */
+	
+#home a  {
+	background: url('../images/nav/home.gif');
+	}
+
+#lineup a  {
+	background: url('../images/nav/lineup.gif');
+	}
+
+#tickets a  {
+	background: url('../images/nav/tickets.gif');
+	}
+
+#gallery a  {
+	background: url('../images/nav/gallery.gif');
+	}
+	
+#forum a  {
+	background: url('../images/nav/forum.gif');
+	}
+	
+/* SPLASH PAGE NAVIGATION IMAGES */
+
+#perth a  {
+background: url('../images/splashnav/perth.gif');
+}
+
+#adelaide a  {
+background: url('../images/splashnav/adelaide.gif');
+}
+
+#melbourne a  {
+background: url('../images/splashnav/melbourne.gif');
+}
+
+#sydney a  {
+background: url('../images/splashnav/sydney.gif');
+}
+
+#goldcoast a  {
+background: url('../images/splashnav/goldcoast.gif');
+}
+
+#auckland a  {
+background: url('../images/splashnav/auckland.gif');
+}
